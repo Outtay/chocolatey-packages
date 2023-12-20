@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>sentry-cli</id>
+    <version>2.23.0</version>
+    <title>Sentry Command Line Interface</title>
+    <authors>Sentry</authors>
+    <owners>Outtay</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/getsentry/sentry-cli/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/getsentry/sentry-cli</projectUrl>
+    <description>This is a Sentry command line client for some generic tasks. Right now this is primarily used to upload debug symbols to Sentry if you are not using the Fastlane tools.
+    After installation the tool is available as "sentry-cli.exe".</description>
+    <summary>Sentry Command Line Interface</summary>
+    <copyright>Copyright (c) 2016 Sentry</copyright>
+    <tags>sentry-cli sentry</tags>
+    <projectSourceUrl>https://github.com/getsentry/sentry-cli</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Outtay/chocolatey-packages</packageSourceUrl>
+    <docsUrl>https://docs.sentry.io/hosted/learn/cli/</docsUrl>
+    <bugTrackerUrl>https://github.com/getsentry/sentry-cli/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="vcredist140" version="14.38.33130" />
+    </dependencies>
+  </metadata>
+</package>
