@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ncftp</id>
+    <version>3.2.6</version>
+    <title>ncftp</title>
+    <authors>NcFTP Software</authors>
+    <owners>Outtay</owners>
+    <licenseUrl>http://www.ncftp.com/ncftp/doc/LICENSE.txt</licenseUrl>
+    <projectUrl>http://www.ncftp.com/ncftp</projectUrl>
+    <packageSourceUrl>https://github.com/Outtay/chocolatey-packages</packageSourceUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NcFTP Client (also known as just NcFTP) is a set of free application programs implementing the File Transfer Protocol (FTP).</description>
+    <summary>ncftp - File Transfer Protocol client</summary>
+    <copyright>Copyright (c) 1992-2016 by Mike Gleason (NcFTP Software)</copyright>
+    <tags>ncftp ftp CLI</tags>
+  </metadata>
+</package>
