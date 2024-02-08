@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.ncftp.com/downloads/ncftp/binaries/Setup%20NcFTP%203.2.6.msi'
+$url        = 'https://www.ncftp.com/public_ftp/ncftp/older_binaries/Setup%20NcFTP%203.2.6.msi'
 
 $packageArgs = @{
   PackageName   = $env:ChocolateyPackageName
